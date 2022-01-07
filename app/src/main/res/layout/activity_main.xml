@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/blackTimerTV"
+        android:layout_width="440dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:background="#000000"
+        android:onClick="blackButton"
+        android:rotation="180"
+        android:text="00:00"
+        android:textDirection="firstStrong"
+        android:textIsSelectable="false"
+        android:textSize="96sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/whiteTimerTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/whiteTimerTV"
+        android:layout_width="424dp"
+        android:layout_height="311dp"
+        android:background="#FFFFFF"
+        android:onClick="whiteButton"
+        android:text="00:00"
+        android:textColor="#090909"
+        android:textSize="96sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="119dp"
+        android:layout_height="73dp"
+        android:background="#EF1010"
+        android:text="RESET"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/whiteTimerTV"
+        app:layout_constraintEnd_toStartOf="@+id/startStopButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blackTimerTV"
+        app:layout_constraintVertical_bias="0.586" />
+
+    <Button
+        android:id="@+id/startStopButton"
+        android:layout_width="119dp"
+        android:layout_height="73dp"
+        android:background="#2196F3"
+        android:text="START"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/resetButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/resetButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
