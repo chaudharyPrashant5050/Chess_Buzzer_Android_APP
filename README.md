@@ -1,5 +1,9 @@
 # Chess_Buzzer_Android_APP
 
+#Splash Screen
+1[](https://github.com/chaudharyPrashant5050/Chess_Buzzer_Android_APP/blob/master/chess%20buzzer%20sceeenShort/Screenshot_2022-02-25-16-20-00-422_com.example.chessbuzzer%20(2).jpg)
+
+
 #Screenshorts from mobile 
 
 ![](https://github.com/chaudharyPrashant5050/Chess_Buzzer_Android_APP/blob/master/chess%20buzzer%20sceeenShort/Screenshot_2022-01-07-14-22-44-388_com.example.chessbuzzer.jpg)
